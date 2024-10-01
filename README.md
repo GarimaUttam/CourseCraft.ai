@@ -56,3 +56,5 @@
 
 <p>Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.<br/><br/>You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.<br/></br>This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 </p>
+
+![image](https://github.com/user-attachments/assets/309926c8-4f04-430f-b0a5-fee28fdc9c64)
