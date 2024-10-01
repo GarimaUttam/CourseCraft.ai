@@ -10,18 +10,14 @@
     <li>Clerk</li>
     <li>Tailwind CSS</li>
     <li>ShadCN UI</li>
+    <li>Youtube API</li>
 </ul>
 
 <h2>Key features of this application: </h2>
 <ul>
-    <li>Collect job information for the upcoming interview</li>
-    <li>Generate interview questions through Gemini AI by analysing the job information</Li>
-    <li>Web cam functionality to improve the confidence in interviews</Li>
-    <li>Record answers through microphone</Li>
-    <li>Convert speech to text and store the user answers in database</Li>
-    <li>Text to speech functionality to listen to the interview questions</Li>
-    <li>Generate rating and feedback through Gemini AI by analysing the recorded answers</Li>
-    <li>Practice any previous interviews to upskill</Li>
+    <li>Created using Gemini AI to generate complete courses based on categories, duration, number of chapters, levels etc.</li>
+    <li>Users can buy and view other courses, promt with topic detail providing an interactive learning experience.</Li>
+    <li>Integrated {\textbf{Youtube API}} to generate video tutorials for each chapter and notes with edit functionality.</Li>
     <li>Clerk authentication through email or with upto 2 social accounts</Li>
 </ul>
 
