@@ -1,6 +1,4 @@
-<h1>
-# ![CourseCraft.ai](https://img.shields.io/badge/CourseCraft.ai-%23ff1493?style=for-the-badge&logo=none&labelColor=purple)
-
+<h1>CourseCraft.ai
 </h1>
 <h2> A custom learning platform powered by AI</h2>
 
