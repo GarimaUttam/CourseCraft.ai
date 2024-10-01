@@ -18,8 +18,8 @@
 <ul>
     <li>Created using Gemini AI to generate complete courses based on categories, duration, number of chapters, levels etc.</li>
     <li>Users can buy and view other courses, promt with topic detail providing an interactive learning experience.</Li>
-    <li>Integrated {\textbf{Youtube API}} to generate video tutorials for each chapter and notes with edit functionality.</Li>
-    <li>Clerk authentication through email or with upto 2 social accounts</Li>
+    <li>Integrated Youtube API to generate video tutorials for each chapter and notes with edit functionality.</Li>
+    <li>Clerk authentication through email or with upto 2 social accounts.</Li>
 </ul>
 
 <h3>Steps to run this project in your device: </h3>
