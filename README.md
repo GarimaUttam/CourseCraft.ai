@@ -25,9 +25,9 @@
 <p>Create an empty directory and run the following commands in the terminal: </p>
 
 ```bash
-    https://github.com/GarimaUttam/Mock-Interview-Prep-with-AI.git
+    git@github.com:GarimaUttam/CourseCraft.ai.git
 
-    cd AI-Mock-Interviewer
+    cd CourseCraft.ai
 
     npm i
 ```
@@ -45,7 +45,6 @@
 
     NEXT_PUBLIC_GEMINI_API_KEY = 
 
-    NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = 
 ```
 
 <p>Finally to run this project, enter the following command: </p>
