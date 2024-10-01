@@ -26,7 +26,7 @@
 <p>Create an empty directory and run the following commands in the terminal: </p>
 
 ```bash
-    git@github.com:GarimaUttam/CourseCraft.ai.git
+    git clone https://github.com/GarimaUttam/CourseCraft.ai.git
 
     cd CourseCraft.ai
 
