@@ -1,6 +1,7 @@
-<h1 class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">
-        CourseCraft.ai
-    </h1>
+<h1>
+# ![CourseCraft.ai](https://img.shields.io/badge/CourseCraft.ai-%23ff1493?style=for-the-badge&logo=none&labelColor=purple)
+
+</h1>
 <h2> A custom learning platform powered by AI</h2>
 
 <h3>Skills used: </h3>
