@@ -9,9 +9,8 @@ function Hero() {
       <h1
         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl lg:wrap-content"
       >
-        Welcome to <h1 class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-purple-900">
-        CourseCraft.ai
-    </h1>
+        Welcome to <span className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-purple-900">
+        CourseCraft.ai</span>
 
         <span className="sm:block"> Custom Learning Path - Powered By AI </span>
       </h1>
