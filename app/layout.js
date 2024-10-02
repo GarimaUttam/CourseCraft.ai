@@ -1,17 +1,22 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import {Outfit} from "next/font/google";
 import { ClerkProvider, GoogleOneTap } from "@clerk/nextjs";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
+
+ 
+// If loading a variable font, you don't need to specify the font weight
+const inter = Outfit({ subsets: ['latin'] })
 
 export const metadata = {
   title: "Create Next App",
@@ -24,7 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
     <GoogleOneTap />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${inter.variable} antialiased`}
       >
         {children}
       </body>
