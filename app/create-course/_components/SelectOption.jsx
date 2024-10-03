@@ -41,8 +41,10 @@ function SelectOption() {
 
         <div>
           <label className="text-sm flex gap-1"><FcAlarmClock/>Course Duration</label>
-          <Select nValueChange={(value)=>handleInputChange('duration',value)}
-          defaultValue={userCourseInput?.duration}>
+          <Select 
+          defaultValue={userCourseInput?.duration}
+          onValueChange={(value)=>handleInputChange('duration',value)}
+          >
             <SelectTrigger className="h-14 text-md text-gray-700">
               <SelectValue placeholder="Select" />
             </SelectTrigger>
@@ -56,8 +58,8 @@ function SelectOption() {
 
         <div>
           <label className="text-sm flex gap-1"><FcStart />Add Video</label>
-          <Select nValueChange={(value)=>handleInputChange('displayVideo',value)}
-            defaultValue={userCourseInput?.displayVideo}>
+          <Select 
+          defaultValue={userCourseInput?.displayVideo}onValueChange={(value)=>handleInputChange('displayVideo',value)}>
             <SelectTrigger className="h-14 text-md text-gray-700">
               <SelectValue placeholder="Select" />
             </SelectTrigger>
@@ -72,8 +74,8 @@ function SelectOption() {
         <div>
           <label className="text-sm flex gap-1"><FcViewDetails />Number of Chapters</label>
           <Input type="number" className="h-14 text-md text-gray-700"
-          defaultValue={userCourseInput?.noOfChapter}
-          onChange={(event)=>handleInputChange('noOfChapter',event.target.value)}
+          defaultValue={userCourseInput?.noOfChapters}
+          onChange={(event)=>handleInputChange('noOfChapters',event.target.value)}
           />
         </div>
 

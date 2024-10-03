@@ -33,6 +33,24 @@ function CreateCourse() {
     useEffect(()=>{
         console.log(userCourseInput);
     },[userCourseInput])
+
+    /** Used to check Next Button Enable or Disable status
+    */
+    const checkStatus=()=>{
+        if(userCourseInput?.length==0){
+            return true;
+        }
+        if(activeIndex==0&&(userCourseInput?.category?.length==0 || userCourseInput?.category==undefined)){
+            return true;
+        }
+        if(activeIndex==1&&(userCourseInput?.topic?.length==0 || userCourseInput?.topic==undefined)){
+            return true;
+        }
+        if(activeIndex==2&&(userCourseInput?.level==undefined || userCourseInput?.duration==undefined || userCourseInput?.displayVideo==undefined || userCourseInput?.noOfChapters==undefined)){
+            return true;
+        }
+        return false;
+    }
   return (
     <div>
         {/* {Stepper} */}
@@ -69,9 +87,13 @@ function CreateCourse() {
             <div className='flex justify-between mt-10'>
                 <Button disabled={activeIndex==0} variant='outline' onClick={()=>setActiveIndex(activeIndex-1)}><HiArrowLeft />Previous</Button>
 
-                {activeIndex<2 && <Button onClick={()=>setActiveIndex(activeIndex+1)}>Next  <HiArrowRight />
+                {activeIndex<2 && <Button disabled={checkStatus()}
+                onClick={()=>setActiveIndex(activeIndex+1)}>Next  <HiArrowRight />
                 </Button>}   
-                {activeIndex==2 && <Button onClick={()=>setActiveIndex(activeIndex+1)}>Generate Course Layout</Button>}
+
+
+                {activeIndex==2 && <Button disabled={checkStatus()}
+                onClick={()=>setActiveIndex(activeIndex+1)}>Generate Course Layout</Button>}
 
             </div>
 
